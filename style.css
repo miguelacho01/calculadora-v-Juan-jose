@@ -5,10 +5,59 @@
 }
 
 .contenedor{
-    width: 80%;
-    height: 30rem;
+    height: auto;
+    margin: 100px auto;
+    padding: 20px 40px;
+    width: fit-content;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background-color: aquamarine;
+    gap: 20px;
+    border: solid 1px;
+}
+
+.display{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    border: solid 1px;
+}
+
+.valor{
+    width: 40px;
+}
+
+#val1{
+    visibility: hidden;
+}
+
+#val2{
+    visibility: hidden;
+}
+
+.operacion{
+    display: flex;
+}
+
+.operador{
+    width: 20px;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 6px;
+   
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+
+}
+
+.numeros{
+    border: solid 1px;
+    
+    
 }
