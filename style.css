@@ -5,6 +5,8 @@
 }
 
 .contenedor{
+    margin: auto;
+    margin-top: 3rem;
     width: 80%;
     height: 30rem;
     display: flex;
