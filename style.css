@@ -13,18 +13,24 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    border: solid 1px;
+   
+    background-color: rgb(131, 7, 7);
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px #640c0c;
 }
 
 .display{
     width: 90%;
     height: 50px;
     margin: auto;
-    border: solid 1px;
+    border-radius: 80px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 1rem;
 }
 
 .valor{
-    width: 40px;
+    width: 80px;
 }
 
 #val1{
@@ -44,20 +50,19 @@
     height: 30px;
     padding-top: 5px;
     padding-left: 6px;
+    background-color: white;
+    border-radius: 15px;
    
 }
 
 .btn{
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
     border: none;
     border-radius: 5px;
-    background-color: gray;
+    background-color: white;
+    box-shadow: 0px 4px 20px hwb(240 6% 93%);
 
 }
 
-.numeros{
-    border: solid 1px;
-    
-    
-}
+
