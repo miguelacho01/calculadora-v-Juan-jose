@@ -62,6 +62,8 @@ function finalizar(empat){
             cell.style.cursor = "not-allowed"
             
         })
+        tabla.classList.remove(player_X_class)
+	    tabla.classList.remove(player_O_class)
     }
     ganador.classList.add('show')
 }
