@@ -11,7 +11,7 @@ const WINNING_COMBINATIONS = [
 	[2, 4, 6]
 ]
 const cells = document.querySelectorAll(".cell")
-const tabla = document.getElementsByClassName("tabla")
+const tabla = document.querySelector(".tabla")
 const ganador = document.querySelector("#ganador")
 const restart = document.getElementById("restart")
 let player_O_turn = false
@@ -19,6 +19,7 @@ start()
 restart.addEventListener("click",start)
 function start(){
     player_O_turn=false
+   
     cells.forEach(cell=>{
         cell.classList.remove(player_O_class)
         cell.classList.remove(player_X_class)
@@ -27,6 +28,7 @@ function start(){
         cell.style.cursor = "pointer"
         ganador.innerText = ""
     })
+    setBoardHoverClass()
 }
 
 function handleCellClick(e){
