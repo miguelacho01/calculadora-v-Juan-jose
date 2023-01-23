@@ -10,7 +10,7 @@ login.addEventListener("click",e=>{
         localStorage.token = "Miguel"
         alert("Bienvenido")
         setTimeout(()=>{
-            location="./page1.html"
+            location="../Principal/Index.html"
         },1000)
     }else{
         alert("Usuario o contraseña no valido")
