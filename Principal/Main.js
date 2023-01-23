@@ -1,6 +1,6 @@
 if(localStorage.getItem("token") !== "Miguel"){
     alert( "No autorizo")
-    location="./index.html"
+    location="../login/index.html"
 }
 console.log(localStorage.token)
 console.log(localStorage.getItem("token"))
@@ -9,5 +9,5 @@ logout.addEventListener("click",()=>{
     
     localStorage.removeItem("token")
     alert("chao")
-    location="./index.html"
+    location="../login/index.html"
 })
